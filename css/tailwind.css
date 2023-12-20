@@ -1,0 +1,14 @@
+.truncate-title,
+.truncate-text {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.truncate-title {
+  -webkit-line-clamp: 2;
+}
+
+.truncate-text {
+  -webkit-line-clamp: 4;
+}
